@@ -21,7 +21,6 @@ _TODO_
 * [nodezoo-repl](//github.com/nodezoo/nodezoo-repl)
 * [nodezoo-web](//github.com/nodezoo/nodezoo-web)
 * [nodezoo-search](//github.com/nodezoo/nodezoo-search)
-* [nodezoo-search](//github.com/nodezoo/nodezoo-search)
 * [nodezoo-info](//github.com/nodezoo/nodezoo-info)
 * [nodezoo-npm](//github.com/nodezoo/nodezoo-npm)
 * [nodezoo-github](//github.com/nodezoo/nodezoo-github)
