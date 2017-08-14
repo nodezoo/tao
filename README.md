@@ -39,19 +39,21 @@ running.
   $ ./tao/npm-install.sh`
   ```
 
-4. Start up the system by running the local development environment
+4. Install and run a [development instance of ElasticSearch](https://www.elastic.co/guide/en/elasticsearch/reference/5.5/_installation.html).
+  
+5. Start up the system by running the local development environment
   using ([fuge](//github.com/apparatus/fuge)).
   ```
   $ cd system
   $ ./node_modules/.bin/fuge shell fuge/fuge.yml
   ```
 
-5. Index a few modules, by visiting the _info_ page in your browser.
+6. Index a few modules, by visiting the _info_ page in your browser.
   * [http://localhost:8000/info/express](http://localhost:8000/info/express)
   * [http://localhost:8000/info/hapi](http://localhost:8000/info/hapi)
   * [http://localhost:8000/info/seneca](http://localhost:8000/info/seneca)
 
-6. Search for modules.
+7. Search for modules.
   * [http://localhost:8000/#?q=express](http://localhost:8000/#?q=express)
 
 
