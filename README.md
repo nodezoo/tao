@@ -54,7 +54,7 @@ running.
   * [http://localhost:8000/info/seneca](http://localhost:8000/info/seneca)
 
 7. Search for modules.
-  * [http://localhost:8000/#?q=express](http://localhost:8000/#?q=express)
+  * [http://localhost:8000/#q=express](http://localhost:8000/#q=express)
 
 
 ## List of repositories
