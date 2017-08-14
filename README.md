@@ -29,29 +29,29 @@ running.
   $ git clone https://github.com/nodezoo/tao.git
   ```
 
-1. Checkout all the microservice repositories.
+2. Checkout all the microservice repositories.
   ```
   $ ./tao/clone-all.sh`
   ```
   
-1. Install all the modules.
+3. Install all the modules.
   ```
   $ ./tao/npm-install.sh`
   ```
 
-1. Start up the system by running the local development environment
+4. Start up the system by running the local development environment
   using ([fuge](//github.com/apparatus/fuge)).
   ```
   $ cd system
   $ ./node_modules/.bin/fuge shell fuge/fuge.yml
   ```
 
-1. Index a few modules, by visiting the _info_ page in your browser.
+5. Index a few modules, by visiting the _info_ page in your browser.
   * [http://localhost:8000/info/express](http://localhost:8000/info/express)
   * [http://localhost:8000/info/hapi](http://localhost:8000/info/hapi)
   * [http://localhost:8000/info/seneca](http://localhost:8000/info/seneca)
 
-1. Search for modules.
+6. Search for modules.
   * [http://localhost:8000/#?q=express](http://localhost:8000/#?q=express)
 
 
