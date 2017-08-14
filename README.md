@@ -24,34 +24,34 @@ data source.
 Follow these instructions to get a demonstration nodezoo system up and
 running.
 
-0. Checkout this repository.
+1. Checkout this repository.
   ```
   $ git clone https://github.com/nodezoo/tao.git
   ```
 
-0. Checkout all the microservice repositories.
+1. Checkout all the microservice repositories.
   ```
   $ ./tao/clone-all.sh`
   ```
   
-0. Install all the modules.
+1. Install all the modules.
   ```
   $ ./tao/npm-install.sh`
   ```
 
-0. Start up the system by running the local development environment
+1. Start up the system by running the local development environment
   using ([fuge](//github.com/apparatus/fuge)).
   ```
   $ cd system
   $ ./node_modules/.bin/fuge shell fuge/fuge.yml
   ```
 
-0. Index a few modules, by visiting the _info_ page in your browser.
+1. Index a few modules, by visiting the _info_ page in your browser.
   * [http://localhost:8000/info/express](http://localhost:8000/info/express)
   * [http://localhost:8000/info/hapi](http://localhost:8000/info/hapi)
   * [http://localhost:8000/info/seneca](http://localhost:8000/info/seneca)
 
-0. Search for modules.
+1. Search for modules.
   * [http://localhost:8000/#?q=express](http://localhost:8000/#?q=express)
 
 
