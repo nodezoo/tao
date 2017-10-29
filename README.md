@@ -31,12 +31,12 @@ running.
 
 2. Checkout all the microservice repositories.
   ```
-  $ ./tao/clone-all.sh`
+  $ ./tao/clone-all.sh
   ```
   
 3. Install all the modules.
   ```
-  $ ./tao/npm-install.sh`
+  $ ./tao/npm-install.sh
   ```
 
 4. Install and run a [development instance of ElasticSearch](https://www.elastic.co/guide/en/elasticsearch/reference/5.5/_installation.html).
@@ -46,6 +46,7 @@ running.
   ```
   $ cd system
   $ ./node_modules/.bin/fuge shell fuge/fuge.yml
+  fuge> start all
   ```
 
 6. Index a few modules, by visiting the _info_ page in your browser.
